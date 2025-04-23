@@ -1,6 +1,6 @@
 package model;
 
-public class Veiculo {
+public abstract class Veiculo {
     protected String marca, modelo;
     protected int ano;
     protected Cores cor;
@@ -11,7 +11,7 @@ public class Veiculo {
         this.ano = ano;
         this.cor = cor;
     }
-    public abstract String mover()
+    public abstract String mover();
     
     public String getMarca() {
         return marca;
